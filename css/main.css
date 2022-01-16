@@ -1,0 +1,154 @@
+﻿/*-----------------------------------------------------------
+    常规样式
+-------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body 
+{
+  color: #333333;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  overflow-x: hidden;
+  transition: opacity 1s;
+  min-width: 330px;
+}
+h1,h2
+{
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+a
+{
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+}
+a:focus,a:hover
+{
+  color: rgba(44, 44, 44, 0.8);
+  text-decoration: none;
+}
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+p
+{
+  font-size: 1em;
+  line-height: 1.8;
+  color: #6E757A;
+  margin-bottom: 15px;
+  letter-spacing: 0.025em;
+}
+
+h1
+{
+  font-size: 1.4em;
+  margin: 10px 0 20px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+h2
+{
+  font-size: 1.2em;
+  margin: 10px 0 20px 0;
+}
+.container
+{
+  width:800px;
+  margin:10px auto;
+}
+/*-----------------------------------------------------------
+ 导航栏
+-------------------------------------------------------------*/
+.nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li
+{
+  float: left;
+}
+
+.nav li a
+{
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+/* 当鼠标悬停时把链接颜色更改 */
+.nav li a:hover
+{
+  color: #FF3946;
+}
+/*-----------------------------------------------------------
+ 对专业的认识
+-------------------------------------------------------------*/
+.understanding p
+{
+ text-align:justify;
+}
+/*-----------------------------------------------------------
+ 学业规划
+-------------------------------------------------------------*/
+.plan ol
+{
+  margin-left: 3em;
+  padding: 0;
+}
+.plan li
+{
+  text-align:justify;
+  font-size: 1em;
+  line-height: 1.8;
+  color: #6E757A;
+  margin-bottom: 15px;
+  letter-spacing: 0.025em;
+}
+/*-----------------------------------------------------------
+ 课程参考资料
+-------------------------------------------------------------*/
+.ref a img
+{
+margin:auto;
+}
+.ref a
+{
+	float: left;
+	overflow: hidden;
+	display:block;
+	font-weight:bold;
+	color:#6E757A;
+	width:120px;
+	text-align:center;
+	height: 40px;
+	line-height:40px;
+	border-radius: 5px;
+	padding: 6px 16px;
+	text-decoration:none;
+	margin: 0 8px 10px 0;
+}
+.ref a:link,.ref a:visited
+{
+	background-color:#f6f6f6;
+}
+.ref a:hover,.ref a:active
+{
+	background-color:#f1f1f1;
+}
+/*清除浮动*/
+.clear
+{
+clear:both;
+}
